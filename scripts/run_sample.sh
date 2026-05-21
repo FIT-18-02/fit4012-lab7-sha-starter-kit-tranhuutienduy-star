@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-make all
+# make all
 
 echo "== 1. Known answer tests =="
 ./sha256 --self-test
