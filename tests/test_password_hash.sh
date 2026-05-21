@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
+ 
 make password_hash >/dev/null
 
 HASH_FILE="test_password.hash"
